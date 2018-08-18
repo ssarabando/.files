@@ -15,4 +15,6 @@ set expandtab
 " Show line numbers and make them relative.
 set number
 set relativenumber
+" Create ctags command
+command! MakeTags !ctags -R .
 
