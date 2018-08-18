@@ -12,6 +12,7 @@ colorscheme monokai
 set tabstop=4
 set shiftwidth=4
 set expandtab
+" Show line numbers and make them relative.
 set number
 set relativenumber
 
