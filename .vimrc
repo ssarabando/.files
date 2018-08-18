@@ -17,4 +17,6 @@ set number
 set relativenumber
 " Create ctags command
 command! MakeTags !ctags -R .
+" Automatically reload .vimrc
+autocmd! bufwritepost .vimrc source %
 
