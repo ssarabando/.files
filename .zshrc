@@ -99,3 +99,5 @@ export LANG=pt_PT.UTF-8
 zstyle ':omz:module:tmux' auto-start 'yes'
 
 if [ "$TMUX" = "" ]; then tmux; fi
+
+alias dir='ls -laF'
