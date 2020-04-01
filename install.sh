@@ -1,3 +1,5 @@
+sudo locale-gen pt_Pt.UTF-8
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ln -s /home/ssarabando/.files/.vimrc /home/ssarabando/.vimrc
