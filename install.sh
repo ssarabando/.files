@@ -1,3 +1,5 @@
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 ln -s /home/ssarabando/.files/.vimrc /home/ssarabando/.vimrc
 ln -s /home/ssarabando/.files/.zshrc /home/ssarabando/.zshrc
 
